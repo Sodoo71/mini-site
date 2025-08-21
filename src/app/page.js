@@ -15,14 +15,14 @@ export default function Home() {
       </div>
       <hr></hr>
       <div class="flex gap-4 m-8 justify-between flex-wrap">
-        <div class="w-160 h-100 border border-red-600 ">
-          
+        <div class="w-160 h-100 border border-red-600 flex justify-between">
+          <div class="w-80 h-80 m-8 border border-green-600 rounded-full "></div>
+          <div class="w-70 h-70 m-8 border border-green-600">
+            <div>garchig</div>
+            <div>Tailbar</div>
+            <div>Read more</div>
+          </div>
         </div>
-        <div class="w-160 h-100 border border-green-600 "></div>
-        <div class="w-160 h-100 border border-blue-600 "></div>
-        <div class="w-160 h-100 border border-pink-600 "></div>
-        <div class="w-160 h-100 border border-indigo-600 "></div>
-        <div class="w-160 h-100 border border-indigo-600 "></div>
       </div>
     </>
   );
