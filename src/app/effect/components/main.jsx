@@ -26,13 +26,62 @@ export const Main = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center mx-auto bg-slate-900">
+          <div className="flex items-center wrap gap-3 mx-auto">
             <Image
               src="/Frame_14.jpg"
               alt="her"
               className="object-cover rounded-lg"
-              width={500}
-              height={500}
+              width={200}
+              height={200}
+            /> 
+            <Image
+              src="/Frame_10.jpg"
+              alt="her"
+              className="object-cover rounded-lg"
+              width={200}
+              height={200}
+            /> 
+            <Image
+              src="/Frame_18.jpg"
+              alt="her"
+              className="object-cover rounded-lg"
+              width={200}
+              height={200}
+            /> 
+            <Image
+              src="/Frame_19.jpg"
+              alt="her"
+              className="object-cover rounded-lg"
+              width={200}
+              height={200}
+            /> 
+            <Image
+              src="/Frame_20.jpg"
+              alt="her"
+              className="object-cover rounded-lg"
+              width={200}
+              height={200}
+            /> 
+            <Image
+              src="/Frame_21.jpg"
+              alt="her"
+              className="object-cover rounded-lg"
+              width={200}
+              height={200}
+            /> 
+            <Image
+              src="/Frame_22.jpg"
+              alt="her"
+              className="object-cover rounded-lg"
+              width={200}
+              height={200}
+            /> 
+            <Image
+              src="/Frame_29.jpg"
+              alt="her"
+              className="object-cover rounded-lg"
+              width={200}
+              height={200}
             /> 
           </div>
         </div>
