@@ -1,3 +1,4 @@
+import { Nixie_One } from "next/font/google";
 
 export const ProductCard = ({ product }) => {
   return (

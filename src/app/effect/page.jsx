@@ -20,7 +20,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <Hearder />
-      <Main />
+      <Main/>
       {/* Product List */}
       <main className="p-6 max-w-6xl mx-auto">
         <h2 className="text-xl font-semibold text-gray-700 mb-4">Products</h2>
@@ -30,6 +30,7 @@ export default function Home() {
             <ProductCard product={product} key={product.id} />
           ))}
         </div>
+        {/* Pagination */}
 
         <Pagination />
       </main>
