@@ -15,7 +15,7 @@ export const ProductCard = ({ product }) => {
         {product.description}
       </p>
       <p className="text-black-600 font-bold mt-2">${product.price}</p>
-      {/* <buttom>View Details</buttom> */}
+      <buttom>View Details</buttom>
     </div>
   );
 };
