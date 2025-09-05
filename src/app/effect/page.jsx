@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Hearder } from "./components/header";
-import { ProductCard } from "./components/product";
+import { Hearder } from "./components/Header";
+import { ProductCard } from "./components/Product";
 import { Pagination } from "./components/Pagination";
-import { Main } from "./components/main";
+import { Main } from "./components/Main";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
